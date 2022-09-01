@@ -27,9 +27,9 @@ public class Employee {
         return this.employeeName;
     }
 
-    public void UID() {
+    public String UID() {
         // ^ Obtain this Employee’s ID.
-        System.out.println(this.employeeId);
+        return this.employeeId;
     }
 
     public void signIn(Date d, Time t) {
